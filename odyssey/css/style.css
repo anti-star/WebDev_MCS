@@ -9,10 +9,14 @@ body {
 }
 
 .header-container h1 {
- line-height: 70px;
- text-transform: uppercase;
- letter-spacing: 1px;
- color: white;
+	margin-left: 10px;
+}
+
+.header-container h1 {
+	line-height: 70px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: white;
 }
 
 .image-section {
@@ -39,21 +43,27 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	line-height: 50px;
+	margin-left: 10px;
 }
 
 .text-section {
-	height: 400px;
 	background-color: white;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.text-container {
+	margin-left: 10px;
 }
 
 .text-section h1 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	line-height: 50px;
 }
 
 .text-section p {
-	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 footer {
@@ -65,4 +75,8 @@ footer p {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	line-height: 70px;
+}
+
+.footer-content {
+	margin-left: 10px;
 }
