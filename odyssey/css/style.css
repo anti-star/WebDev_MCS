@@ -1,0 +1,68 @@
+@import url(reset.css);
+body {
+	background-color: rgba(0, 0, 0, .8);
+	font-family: 'Jura', sans-serif;
+}
+
+.header-container {
+	height: 70px;
+}
+
+.header-container h1 {
+ line-height: 70px;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ color: white;
+}
+
+.image-section {
+	height: 450px;
+	background-image: url(../img/eimic_odyssey.jpg);
+	background-attachment: fixed;
+}
+
+.image-container {
+	height: 400px;
+	background-image: url(../img/logo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.links-container {
+	height: 50px;
+	background-color: rgba(50, 50, 50, .7);
+}
+
+.links-container a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 50px;
+}
+
+.text-section {
+	height: 400px;
+	background-color: white;
+}
+
+.text-section h1 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 50px;
+}
+
+.text-section p {
+	margin-bottom: 20px;
+}
+
+footer {
+	height: 70px;
+}
+
+footer p {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 70px;
+}
