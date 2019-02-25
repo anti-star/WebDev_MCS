@@ -1,0 +1,23 @@
+.header-container {
+	background: black;
+	color: white;
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+main h2 {
+	color: white;
+}
+
+.bio, .albums, .video, .links {
+	width: 200px;
+	background-color: rgba(0,0,0, 0.3);
+	display: inline-block;
+	vertical-align: top;
+}
+
+.columns {
+    text-align: center;
+    margin: 0 auto;
+}
