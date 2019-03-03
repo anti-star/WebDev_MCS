@@ -1,6 +1,13 @@
 @import url(reset.css);
 
+html {
+	height: 100%;
+}
+
 body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 	background-color:  rgb(50, 50, 50);
 	font-family: 'Jura', sans-serif;
 	color: white;
@@ -14,6 +21,8 @@ body a {
 
 .header {
 	height: 50px;
+	flex-grow: 0;
+	flex-shrink: 0;
 	text-transform: uppercase;
 	display: flex;
 	align-items: center;
@@ -25,6 +34,11 @@ body a {
 .header-links {
 	margin-left: auto;
 	margin-right: 30px;
+}
+
+main {
+	flex-grow: 1;
+	flex-shrink: 0;
 }
 
 .logo {
@@ -138,6 +152,8 @@ body a {
 
 .footer {
 	height: 60px;
+	flex-grow: 0;
+	flex-shrink: 0;
 	display: flex;
 	align-items: center;
 }
