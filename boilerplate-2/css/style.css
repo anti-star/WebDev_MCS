@@ -1,0 +1,12 @@
+@keyframes moving {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.yo {
+	animation: moving .5s linear infinite alternate;
+}

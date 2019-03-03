@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+div {
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	/*
+	transition-property: all;
+	transition-duration: 1s;
+	transition-delay: .5s;
+	transition-timing-function: ease-in-out;
+	*/
+	transition: all 1s .5s ease-in-out;
+}
+
+div:hover {
+	/*
+	transition: all 1s .5s ease-in-out;
+	*/
+	height: 300px;
+	width: 300px;
+	background-color: red;
+}
