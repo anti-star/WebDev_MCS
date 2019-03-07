@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+/*
+.vh {
+	height: 30vh;
+	width: 60vw;
+	background-color: black;
+}
+*/
+
+/* vh не обязательно нужно указывать только около height,
+это просто единица измерения, и ширина также может 
+рассчитываться от высоты окна */
+.vh {
+	height: 30vw;
+	width: 60vh;
+	background-color: black;
+}
+
+/* vmax берется то, что больше (ширина или высота экрана)
+и процент высчитывается от него */
+.vminvmax {
+	height: 30vmax;
+	width: 60vmin;
+	background-color: green;
+}

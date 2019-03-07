@@ -1,0 +1,112 @@
+@import url(reset.css);
+
+
+body {
+	background-color: rgba(0, 0, 0, .1);
+	font-family: 'Montserrat', sans-serif;;
+}
+
+.header-content {
+	height: 80px;
+	background-color: #8ab73f;
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+}
+
+.header-logo {
+	height: 50px;
+	width: 50px;
+	background-image: url(../img/eco-butovo-logo.png);
+	margin-left: 20px;
+	margin-right: 12px;
+}
+
+.header-text h1 {
+	font-family: 'Scada', sans-serif;
+	font-size: 22px;
+}
+
+.header-text p {
+	font-size: 12px;
+	padding-top: 6px;
+	letter-spacing: 1px;
+}
+
+.header-text2 {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	right: 0;
+}
+
+main {
+	min-height: calc(100% - 130px);
+	width: 70vw;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+ .column-1, .column-2, .column-3 {
+ 	background-color: white;
+ 	width: calc((100% - 80px)/3);
+ 	min-width: 200px;
+ }
+
+.column1-image, .column2-image, .column3-image {
+	width: 100%;
+	overflow: hidden;
+}
+
+.image-1 {
+	background-image: url(../img/1-pet.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 70%;
+}
+
+.image-2 {
+	background-image: url(../img/5-pp.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 70%;
+}
+
+.image-3 {
+	background-image: url(../img/paperwaste.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 70%;
+}
+
+.image-1:hover, .image-2:hover, .image-3:hover {
+	transform: scale(1.2);
+}
+
+.column1-text, .column2-text, .column3-text {
+	margin: 14px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.column1-text h1, .column2-text h1, .column3-text h1 {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+footer {
+	height: 50px;
+	background-color: #8ab73f;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: white;
+	text-transform: uppercase;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+}
