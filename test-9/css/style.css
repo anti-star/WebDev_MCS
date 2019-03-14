@@ -1,0 +1,154 @@
+@import url(reset.css);
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header-content {
+	height: 70px;
+	background-color: #8ab73f;
+	color: white;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+.header-logo {
+	height: 50px;
+	width: 50px;
+	background-image: url(../img/eco-butovo-logo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 16px;
+}
+
+.header-text h1 {
+	font-family: 'Scada', sans-serif;
+	font-size: 22px;
+}
+
+.header-text p {
+	font-size: 12px;
+	padding-top: 6px;
+	letter-spacing: 1px;
+}
+
+main {
+	background-color: lightgrey;
+	min-height: calc(100% - 140px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.page-header {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.box {
+	width: 80%;
+	max-width: 400px;
+}
+
+.box-content {
+	margin-bottom: 40px;
+	background-color: white;
+}
+
+.box-image {
+	overflow: hidden;
+}
+
+.image-1 {
+	background-image: url(../img/1-pet.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 70%;
+}
+
+.image-2 {
+	background-image: url(../img/5-pp.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 70%;
+}
+
+.image-3 {
+	background-image: url(../img/paperwaste.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 70%;
+}
+
+.image-4 {
+	background-image: url(../img/glass.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 70%;
+}
+
+.image-1:hover, .image-2:hover, .image-3:hover, .image-4:hover  {
+	transform: scale(1.2);
+}
+
+.box-text {
+	padding: 20px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.box-text h1 {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.box-text p {
+	padding-bottom: 10px;
+}
+
+.footer-content {
+	height: 70px;
+	background-color: #8ab73f;
+	color: white;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-left: 20px;
+}
+
+@media screen and (min-width: 667px) {
+	main {
+		min-height: calc(100% - 140px);
+		justify-content: center;
+	}
+
+	.page-header {
+		font-size: 20px;
+	}
+
+	.box {
+		width: 90%;
+		display: flex;
+		max-width: 840px;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.box-content {
+		width: calc((100% - 40px)/2);
+		min-width: 200px;
+		margin-bottom: 40px;
+	}
+}
