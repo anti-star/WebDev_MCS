@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ecobutovo</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Scada" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="header-content">
+			<div class="header-logo"></div>
+			<div class="header-text">
+				<h1>Эко Бутово</h1>
+				<p>Экологическое движение</p>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="page">
+			<div class="form-header">
+				<h1>Анкета волонтёра</h1>
+				<p>Экобутово - это сообщество самоорганизовавшихся людей — и Вы можете стать его частью, чтобы менять мир к лучшему вместе с нами.</p>
+			</div>
+			<form method="POST" action="http://free.allforms.mailjol.net/u/198b57dd.php">
+				<div class="row">
+					<div class="row-container">
+						<label for="name">Имя и фамилия</label>
+						<input type="text" name="name">
+					</div>
+					<div class="row-container">
+						<label for="birth">Дата рождения</label>
+						<input type="date" name="birth">
+					</div>
+				</div>
+				<div class="row">
+					<div class="row-container">
+						<label for="email">E-mail</label>
+						<input type="email" name="email">
+					</div>
+					<div class="row-container">
+						<label for="number">Контактный телефон</label>
+						<input type="number" name="number">
+					</div>
+				</div>
+				<div class="row">
+					<div class="row-container">
+						<label for="city">Где вы живёте?</label>
+						<select name="city">
+							<option value="moscow">Москва</option>
+							<option value="mo">Московская область</option>
+							<option value="piter">Другое</option>
+						</select>
+					</div>
+					<div class="row-container">
+						<label for="othercity">Уточните свой район</label>
+						<input type="text" name="othercity">
+					</div>
+				</div>
+					<label for="skill">Полезные навыки:</label>
+					<div class="checkbox">
+						<input type="checkbox" name="skill"><span>умение работать с изображениями (дизайн/вёрстка)</span>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" name="skill"><span>знание иностранного языка для перевода текстов</span>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" name="skill"><span>умение фотографировать, обрабатывать фотографии</span>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" name="skill"><span>умение работать с видео (монтаж, съёмка)</span>
+					</div>
+					<div class="otherskills">
+						<label for="otherskills">Другие навыки:</label>
+						<textarea name="otherskills" placeholder="Возможно, что-то ещё"></textarea>
+					</div>
+				</fieldset>
+				<fieldset class="submit">
+					<div class="submit-container">
+						<input type="checkbox" checked="true"><span>Я согласен на обработку предоставленных персональных данных движением «Эко Бутово» для координации волонтеров</span>
+					</div>
+				</fieldset>
+				<input type="submit">
+			</form>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer-content">Copyright 2019</div>
+	</footer>
+</body>
+</html>
